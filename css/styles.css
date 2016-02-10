@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.masthead {
+  height: 100px;
+  width: 100%;
+  top: 0;
+  background: #999;
+  position: fixed;
+  z-index: 1;
+}
+
+.map-container {
+  position: relative;
+  margin: auto;
+  background-image: url('../img/map3.jpg');
+  width: 2000px;
+  height: 1500px;
+}
+
+.map-container img {
+  max-width: 100%;
+}
+
+.effect {
+  position: absolute;
+  width: 100px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px #000;
+}
+
+.panda {
+  top: 720px;
+  right: 480px;
+}
+
+.littlecat {
+  top: 950px;
+  left: 650px;
+}
+
+.wombat {
+  top: 1000px;
+  right: 350px;
+}
+
+.sandcat {
+  top: 720px;
+  right: 700px;
+}
+
+.rhino {
+  top: 800px;
+  right: 900px;
+}
+
+.bison {
+  top: 620px;
+  left: 430px;
+}
+
+.whale {
+  bottom: 100px;
+  left: 900px;
+}
