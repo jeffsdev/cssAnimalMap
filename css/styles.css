@@ -2,13 +2,14 @@ body {
   margin: 0;
   box-sizing: border-box;
   background: #000;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .masthead {
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   top: 0;
-  background: #999;
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   z-index: 1;
 }
@@ -25,6 +26,58 @@ body {
   max-width: 100%;
 }
 
+/* header stuff */
+
+header h1 {
+  text-align: center;
+  color: #ccc;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+
+.info-container {
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.details {
+  max-width: 800px;
+  margin: auto;
+}
+
+.animalBox{
+  width: 200px;
+  height: 200px;
+  width: 590px;
+  height: 200px;
+  margin: auto;
+  color: #ccc;
+}
+
+.animalBox img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding-right: 20px;
+}
+
+.asia,
+.australia,
+.namerica,
+.camerica,
+.samerica,
+.europe,
+.siberia,
+.middleeast,
+.africa,
+.antarctica {
+  display: none;
+}
+
+/* Animals */
+
+
 .effect {
   position: absolute;
   width: 100px;
@@ -38,9 +91,19 @@ body {
   right: 480px;
 }
 
+.saiga {
+  top: 520px;
+  right: 480px;
+}
+
 .littlecat {
   top: 950px;
   left: 650px;
+}
+
+.spidermonkey {
+  top: 800px;
+  left: 500px;
 }
 
 .wombat {
@@ -58,6 +121,11 @@ body {
   right: 900px;
 }
 
+.seal {
+  top: 650px;
+  right: 900px;
+}
+
 .bison {
   top: 620px;
   left: 430px;
@@ -66,4 +134,10 @@ body {
 .whale {
   bottom: 100px;
   left: 900px;
+}
+
+/* pseudoclasses */
+
+.effect:hover {
+  width: 105px;
 }
